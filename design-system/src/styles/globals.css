@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-ui-background text-ui-foreground font-sans;
+}
+
+/* ── Elevation system ───────────────────────────────────────────────────────
+   Three levels: canvas (body bg) → card (resting) → card-raised (hover/focus)
+   Use shadow instead of just borders so cards visually lift off the canvas.
+──────────────────────────────────────────────────────────────────────────── */
+@layer components {
+  /* Resting card — white surface, subtle shadow, no border clutter */
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-neutral-100;
+  }
+
+  /* Card that lifts on interaction */
+  .card-interactive {
+    @apply card transition-all duration-150
+           hover:shadow-md hover:border-neutral-200 hover:-translate-y-px;
+  }
+
+  /* Tighter, flat panel (nav sections, headers, etc.) */
+  .panel {
+    @apply bg-white rounded-xl border border-neutral-200;
+  }
+
+  /* Form select — consistent, roomier selects to match other components */
+  .form-select {
+    @apply text-sm text-ui-foreground bg-white border border-neutral-200 rounded-lg px-4 py-2.5 appearance-none;
+  }
+
+  /* Select wrapper — positions chevron inside selects and rotates on focus */
+  .select-wrapper {
+    position: relative;
+  }
+
+  .select-wrapper > svg {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: transform 150ms ease;
+    color: theme('colors.neutral.500', '#6B7280');
+  }
+
+  .select-wrapper:focus-within > svg {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+/* Tight, consistent page wrapper */
+.page {
+  @apply max-w-7xl mx-auto px-6 py-8;
+}
+

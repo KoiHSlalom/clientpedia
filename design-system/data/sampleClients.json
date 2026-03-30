@@ -1,0 +1,365 @@
+{
+  "consultantsAvailable": 18,
+  "recentActivity": [
+    { "id": "A1", "type": "opportunity", "text": "New opportunity added: AI Strategy Assessment", "client": "NovaTech Industries", "timestamp": "2026-03-28T14:22:00Z" },
+    { "id": "A2", "type": "profile", "text": "Client profile updated: contacts refreshed", "client": "Meridian Financial", "timestamp": "2026-03-28T11:05:00Z" },
+    { "id": "A3", "type": "project", "text": "Project closed: ERP Modernization completed", "client": "BlueShore Logistics", "timestamp": "2026-03-27T16:40:00Z" },
+    { "id": "A4", "type": "opportunity", "text": "Opportunity moved to Proposal: Data Platform Build", "client": "Acme Corp", "timestamp": "2026-03-27T09:15:00Z" },
+    { "id": "A5", "type": "profile", "text": "New client onboarded: Vantage Healthcare", "client": "Vantage Healthcare", "timestamp": "2026-03-26T13:30:00Z" },
+    { "id": "A6", "type": "opportunity", "text": "Opportunity created: E-commerce Personalization Pilot", "client": "Northstar Commerce", "timestamp": "2026-03-28T10:05:00Z" },
+    { "id": "A7", "type": "project", "text": "Kickoff completed: Claims Workflow Redesign", "client": "Pioneer Insurance Group", "timestamp": "2026-03-27T18:10:00Z" },
+    { "id": "A8", "type": "profile", "text": "New stakeholder added: VP Digital Operations", "client": "Solstice Energy", "timestamp": "2026-03-27T12:55:00Z" },
+    { "id": "A9", "type": "opportunity", "text": "Opportunity advanced to Negotiation: Data Governance Program", "client": "Meridian Financial", "timestamp": "2026-03-26T17:20:00Z" },
+    { "id": "A10", "type": "opportunity", "text": "Role reopened: Platform Reliability Lead", "client": "Acme Corp", "timestamp": "2026-03-26T08:35:00Z" }
+  ],
+  "quickActions": [
+    { "id": "QA1", "label": "Add Client", "href": "/clients/new", "icon": "plus" },
+    { "id": "QA2", "label": "Log Opportunity", "href": "/opportunities/new", "icon": "briefcase" },
+    { "id": "QA3", "label": "Browse Consultants", "href": "/consultants", "icon": "users" },
+    { "id": "QA4", "label": "View All Clients", "href": "/clients", "icon": "list" }
+  ],
+  "featuredClients": ["C001", "C002", "C003"],
+  "openProjects": [
+    {
+      "id": "P1",
+      "title": "Cloud Platform Optimization",
+      "client": "Acme Corp",
+      "clientId": "C001",
+      "role": "Cloud Architect",
+      "description": "Optimize multi-cloud infrastructure for cost and reliability. Looking for a senior cloud architect with AWS and Terraform experience.",
+      "expectedStart": "2026-07-01",
+      "estimatedDurationDays": 90
+    },
+    {
+      "id": "P2",
+      "title": "IoT Platform Expansion",
+      "client": "NovaTech Industries",
+      "clientId": "C002",
+      "role": "IoT Solutions Engineer",
+      "description": "Extend factory IoT network to two new plants. Requires embedded systems experience and familiarity with MQTT and edge computing.",
+      "expectedStart": "2026-05-15",
+      "estimatedDurationDays": 120
+    },
+    {
+      "id": "P3",
+      "title": "RegTech Compliance Build",
+      "client": "Meridian Financial",
+      "clientId": "C003",
+      "role": "Regulatory Technology Lead",
+      "description": "Implement automated compliance monitoring aligned with SEC reporting requirements. Ideal for consultants with FinServ regulatory backgrounds.",
+      "expectedStart": "2026-06-15",
+      "estimatedDurationDays": 90
+    },
+    {
+      "id": "P4",
+      "title": "E-commerce Personalization Pilot",
+      "client": "Northstar Commerce",
+      "clientId": "C006",
+      "role": "Data Science Lead",
+      "description": "Design and launch a personalization engine for product recommendations and marketing journeys.",
+      "expectedStart": "2026-08-01",
+      "estimatedDurationDays": 75
+    },
+    {
+      "id": "P5",
+      "title": "Grid Operations Analytics",
+      "client": "Solstice Energy",
+      "clientId": "C007",
+      "role": "Analytics Product Manager",
+      "description": "Stand up near real-time outage and demand forecasting dashboards for regional operations teams.",
+      "expectedStart": "2026-07-15",
+      "estimatedDurationDays": 110
+    },
+    {
+      "id": "P6",
+      "title": "Claims Experience Redesign",
+      "client": "Pioneer Insurance Group",
+      "clientId": "C008",
+      "role": "Journey Architect",
+      "description": "Rebuild claims intake and adjudication experiences across web and mobile channels.",
+      "expectedStart": "2026-09-10",
+      "estimatedDurationDays": 100
+    }
+  ],
+  "consultants": [
+    {
+      "id": "CON001",
+      "name": "Alex Rivera",
+      "title": "Cloud Solutions Architect",
+      "skills": ["Cloud", "AWS", "DevOps"],
+      "experienceYears": 8,
+      "availability": "Available",
+      "location": "Chicago, USA",
+      "matchScore": 94
+    },
+    {
+      "id": "CON002",
+      "name": "Sara Kim",
+      "title": "Data & Analytics Lead",
+      "skills": ["Analytics", "Data", "AI"],
+      "experienceYears": 6,
+      "availability": "Available in 2 weeks",
+      "location": "New York, USA",
+      "matchScore": 88
+    },
+    {
+      "id": "CON003",
+      "name": "Marcus Webb",
+      "title": "IoT Solutions Engineer",
+      "skills": ["IoT", "Manufacturing"],
+      "experienceYears": 5,
+      "availability": "Available",
+      "location": "Detroit, USA",
+      "matchScore": 91
+    },
+    {
+      "id": "CON004",
+      "name": "Priya Sharma",
+      "title": "FinTech Compliance Specialist",
+      "skills": ["FinServ", "Compliance", "Digital Transformation"],
+      "experienceYears": 9,
+      "availability": "Available in 1 month",
+      "location": "New York, USA",
+      "matchScore": 96
+    },
+    {
+      "id": "CON005",
+      "name": "Jordan Hayes",
+      "title": "Digital Transformation Lead",
+      "skills": ["Healthcare", "Data Interoperability"],
+      "experienceYears": 7,
+      "availability": "Available",
+      "location": "Boston, USA",
+      "matchScore": 82
+    },
+    {
+      "id": "CON006",
+      "name": "Elena Park",
+      "title": "Product Strategy Consultant",
+      "skills": ["Product", "Retail", "Customer Experience"],
+      "experienceYears": 10,
+      "availability": "Available in 2 weeks",
+      "location": "San Francisco, USA",
+      "matchScore": 89
+    },
+    {
+      "id": "CON007",
+      "name": "Noah Bennett",
+      "title": "Cloud Platform Engineer",
+      "skills": ["Cloud", "Kubernetes", "SRE"],
+      "experienceYears": 6,
+      "availability": "Available",
+      "location": "Austin, USA",
+      "matchScore": 90
+    },
+    {
+      "id": "CON008",
+      "name": "Maya Desai",
+      "title": "Healthcare Interoperability Architect",
+      "skills": ["Healthcare", "FHIR", "Data Interoperability"],
+      "experienceYears": 11,
+      "availability": "Available in 1 month",
+      "location": "Boston, USA",
+      "matchScore": 95
+    },
+    {
+      "id": "CON009",
+      "name": "Lucas Romero",
+      "title": "Energy Operations Analyst",
+      "skills": ["Energy", "Analytics", "Forecasting"],
+      "experienceYears": 5,
+      "availability": "Available",
+      "location": "Denver, USA",
+      "matchScore": 84
+    },
+    {
+      "id": "CON010",
+      "name": "Amira Hassan",
+      "title": "Insurance Claims Transformation Lead",
+      "skills": ["Insurance", "Automation", "Process Design"],
+      "experienceYears": 9,
+      "availability": "Available in 3 weeks",
+      "location": "Atlanta, USA",
+      "matchScore": 93
+    }
+  ],
+  "clients": [
+    {
+      "id": "C001",
+      "name": "Acme Corp",
+      "industry": "Retail",
+      "hq": "Chicago, USA",
+      "summary": "Large retail chain focused on omnichannel experiences and supply chain resilience.",
+      "engagementStatus": "Active",
+      "tags": ["Retail", "Cloud", "Analytics"],
+      "contacts": [
+        { "name": "Jane Doe", "role": "CIO", "email": "jane.doe@acme.com" },
+        { "name": "Marcus Green", "role": "VP Engineering", "email": "m.green@acme.com" }
+      ],
+      "pastProjects": [
+        { "title": "Cloud Migration", "summary": "Lift and shift of 40+ services to AWS.", "start": "2023-01-01", "end": "2023-06-01" }
+      ],
+      "activeProjects": [
+        { "id": "AP1", "title": "Cloud Platform Optimization", "lead": "Marcus Green", "startDate": "2026-02-01", "endDate": "2026-07-01", "positionFilled": true }
+      ],
+      "upcomingProjects": [
+        { "title": "Analytics Modernization", "expectedStart": "2026-07-01", "estimatedDurationDays": 120 }
+      ],
+      "opportunities": [
+        { "id": "O-001", "title": "Data Platform Build", "stage": "Proposal", "expectedStart": "2026-07-01", "estimatedDurationDays": 120, "estimatedValue": 850000 }
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "NovaTech Industries",
+      "industry": "Manufacturing",
+      "hq": "Detroit, USA",
+      "summary": "Advanced manufacturing firm modernizing factory operations with IoT and AI-powered quality control.",
+      "engagementStatus": "Active",
+      "tags": ["Manufacturing", "IoT", "AI"],
+      "contacts": [
+        { "name": "Priya Nair", "role": "CTO", "email": "p.nair@novatech.com" }
+      ],
+      "pastProjects": [
+        { "title": "IoT Sensor rollout", "summary": "Deployed 2,000 sensors across 3 plants.", "start": "2024-03-01", "end": "2024-09-30" }
+      ],
+      "activeProjects": [
+        { "id": "AP2", "title": "IoT Platform Expansion", "lead": "Priya Nair", "startDate": "2026-03-01", "endDate": "2026-06-01", "positionFilled": true }
+      ],
+      "upcomingProjects": [],
+      "opportunities": [
+        { "id": "O-002", "title": "AI Strategy Assessment", "stage": "Qualified", "expectedStart": "2026-05-01", "estimatedDurationDays": 60, "estimatedValue": 320000 },
+        { "id": "O-003", "title": "Predictive Maintenance Platform", "stage": "Prospecting", "expectedStart": "2026-09-01", "estimatedDurationDays": 180, "estimatedValue": 1200000 }
+      ]
+    },
+    {
+      "id": "C003",
+      "name": "Meridian Financial",
+      "industry": "Financial Services",
+      "hq": "New York, USA",
+      "summary": "Regional bank undergoing digital transformation with a focus on mobile-first customer experiences and regulatory compliance.",
+      "engagementStatus": "Active",
+      "tags": ["FinServ", "Digital Transformation", "Compliance"],
+      "contacts": [
+        { "name": "Olivia Chen", "role": "CDO", "email": "o.chen@meridianfin.com" },
+        { "name": "Thomas Watts", "role": "Head of Compliance", "email": "t.watts@meridianfin.com" }
+      ],
+      "pastProjects": [
+        { "title": "Mobile Banking Redesign", "summary": "Revamped mobile app for 500k+ users.", "start": "2022-06-01", "end": "2023-02-28" }
+      ],
+      "activeProjects": [],
+      "upcomingProjects": [
+        { "title": "RegTech Implementation", "expectedStart": "2026-06-15", "estimatedDurationDays": 90 }
+      ],
+      "opportunities": [
+        { "id": "O-004", "title": "Compliance Automation", "stage": "Negotiation", "expectedStart": "2026-06-15", "estimatedDurationDays": 90, "estimatedValue": 640000 }
+      ]
+    },
+    {
+      "id": "C004",
+      "name": "BlueShore Logistics",
+      "industry": "Logistics & Supply Chain",
+      "hq": "Seattle, USA",
+      "summary": "Third-party logistics provider optimizing last-mile delivery with route intelligence and warehouse automation.",
+      "engagementStatus": "Past",
+      "tags": ["Logistics", "Automation", "Data"],
+      "contacts": [
+        { "name": "Raj Patel", "role": "COO", "email": "r.patel@blueshore.com" }
+      ],
+      "pastProjects": [
+        { "title": "ERP Modernization", "summary": "Migrated from legacy Oracle to SAP S/4HANA.", "start": "2024-09-01", "end": "2026-03-01" }
+      ],
+      "activeProjects": [],
+      "upcomingProjects": [],
+      "opportunities": []
+    },
+    {
+      "id": "C005",
+      "name": "Vantage Healthcare",
+      "industry": "Healthcare",
+      "hq": "Boston, USA",
+      "summary": "Regional health system leveraging data interoperability and patient-facing digital tools to improve care outcomes.",
+      "engagementStatus": "Prospecting",
+      "tags": ["Healthcare", "Data Interoperability", "Patient Experience"],
+      "contacts": [
+        { "name": "Dr. Sandra Kim", "role": "CMIO", "email": "s.kim@vantagehc.org" }
+      ],
+      "pastProjects": [],
+      "activeProjects": [],
+      "upcomingProjects": [],
+      "opportunities": [
+        { "id": "O-005", "title": "Patient Portal Modernization", "stage": "Prospecting", "expectedStart": "2026-10-01", "estimatedDurationDays": 150, "estimatedValue": 780000 }
+      ]
+    },
+    {
+      "id": "C006",
+      "name": "Northstar Commerce",
+      "industry": "Retail",
+      "hq": "Seattle, USA",
+      "summary": "Digital-first commerce company scaling personalization and fulfillment for high-growth product lines.",
+      "engagementStatus": "Active",
+      "tags": ["Retail", "Data", "Customer Experience"],
+      "contacts": [
+        { "name": "Elise Turner", "role": "Chief Digital Officer", "email": "elise.turner@northstar.com" },
+        { "name": "Brian Cho", "role": "VP Product", "email": "brian.cho@northstar.com" }
+      ],
+      "pastProjects": [
+        { "title": "Checkout Conversion Program", "summary": "Reduced checkout drop-off by 18% through UX and instrumentation changes.", "start": "2025-01-15", "end": "2025-08-30" }
+      ],
+      "activeProjects": [
+        { "id": "AP6", "title": "E-commerce Personalization Pilot", "lead": "Elise Turner", "startDate": "2026-04-01", "endDate": "2026-09-01", "positionFilled": false }
+      ],
+      "upcomingProjects": [
+        { "title": "Fulfillment Cost Optimization", "expectedStart": "2026-11-01", "estimatedDurationDays": 120 }
+      ],
+      "opportunities": [
+        { "id": "O-006", "title": "Recommendation Engine MVP", "stage": "Qualified", "expectedStart": "2026-08-01", "estimatedDurationDays": 75, "estimatedValue": 560000 },
+        { "id": "O-007", "title": "Lifecycle Messaging Redesign", "stage": "Prospecting", "expectedStart": "2026-09-15", "estimatedDurationDays": 60, "estimatedValue": 290000 }
+      ]
+    },
+    {
+      "id": "C007",
+      "name": "Solstice Energy",
+      "industry": "Energy & Utilities",
+      "hq": "Denver, USA",
+      "summary": "Regional utility investing in predictive grid operations and field service modernization.",
+      "engagementStatus": "Prospecting",
+      "tags": ["Energy", "Analytics", "Automation"],
+      "contacts": [
+        { "name": "Kendra Lewis", "role": "VP Grid Operations", "email": "kendra.lewis@solsticeenergy.com" }
+      ],
+      "pastProjects": [],
+      "activeProjects": [],
+      "upcomingProjects": [
+        { "title": "Field Crew Routing Intelligence", "expectedStart": "2026-08-20", "estimatedDurationDays": 140 }
+      ],
+      "opportunities": [
+        { "id": "O-008", "title": "Grid Forecasting Analytics", "stage": "Proposal", "expectedStart": "2026-07-15", "estimatedDurationDays": 110, "estimatedValue": 910000 }
+      ]
+    },
+    {
+      "id": "C008",
+      "name": "Pioneer Insurance Group",
+      "industry": "Insurance",
+      "hq": "Atlanta, USA",
+      "summary": "Multi-line insurer modernizing claims and policy servicing workflows with automation and AI support.",
+      "engagementStatus": "Active",
+      "tags": ["Insurance", "Automation", "AI"],
+      "contacts": [
+        { "name": "Haley Morgan", "role": "COO", "email": "haley.morgan@pioneerins.com" },
+        { "name": "Vikram Shah", "role": "Head of Claims", "email": "vikram.shah@pioneerins.com" }
+      ],
+      "pastProjects": [
+        { "title": "Claims Triage Automation", "summary": "Introduced rules-based routing and reduced average handling time by 22%.", "start": "2024-05-01", "end": "2025-02-15" }
+      ],
+      "activeProjects": [
+        { "id": "AP8", "title": "Claims Experience Redesign", "lead": "Haley Morgan", "startDate": "2026-03-15", "endDate": "2026-10-15", "positionFilled": false }
+      ],
+      "upcomingProjects": [],
+      "opportunities": [
+        { "id": "O-009", "title": "Digital FNOL Program", "stage": "Negotiation", "expectedStart": "2026-09-10", "estimatedDurationDays": 100, "estimatedValue": 740000 },
+        { "id": "O-010", "title": "Underwriting Workbench Discovery", "stage": "Prospecting", "expectedStart": "2026-11-01", "estimatedDurationDays": 90, "estimatedValue": 430000 }
+      ]
+    }
+  ]
+}
